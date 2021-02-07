@@ -1,0 +1,12 @@
+#ifndef POSITION_GLOBAL_H
+#define POSITION_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(POSITION_LIBRARY)
+#define POSITIONSHARED_EXPORT Q_DECL_EXPORT
+#else
+#define POSITIONSHARED_EXPORT Q_DECL_EXPORT
+#endif
+
+#endif // POSITION_GLOBAL_H

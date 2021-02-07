@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>skloe.ico</file>
+    </qresource>
+</RCC>

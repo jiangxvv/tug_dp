@@ -1,0 +1,12 @@
+#ifndef DPOBSERVER_GLOBAL_H
+#define DPOBSERVER_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(DPOBSERVER_LIBRARY)
+#define DPOBSERVERSHARED_EXPORT Q_DECL_EXPORT
+#else
+#define DPOBSERVERSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif  // DPOBSERVER_GLOBAL_H
